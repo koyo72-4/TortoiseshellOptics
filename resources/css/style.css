@@ -1,0 +1,264 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  width: 960px;
+  background-color: cadetblue;
+  background-clip: content-box;
+  padding-top: 1rem;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.logo-name {
+  line-height: 1.4;
+}
+
+header h1 {
+  vertical-align: middle;
+}
+
+header h1,
+nav,
+nav ul li {
+  display: inline-block;
+}
+
+.logo-name,
+nav {
+  padding: 1rem 2rem;
+}
+
+#menu-button {
+  display: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 2rem;
+  line-height: 1.4;
+}
+
+.banner {
+  background: url("../images/glasses-bg.png") center/cover no-repeat;
+  height: 31rem;
+}
+
+.slogan {
+  margin-top: 10rem;
+  display: inline-flex;
+  width: 1032px;
+  margin: 10rem auto 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slogan h2 {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.icon-gallery {
+  height: 8rem;
+  width: auto;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  line-height: 1.4;
+}
+
+.icon {
+  padding: 0 3rem;
+}
+
+.paper img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.ruler img,
+.truck img {
+  width: 5rem;
+  height: auto;
+}
+
+.icon {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.details {
+  width: 960px;
+  margin: 0 auto;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+.philosophy,
+.appointments {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+}
+
+.details h2 {
+  width: 10rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  font-weight: bold;
+}
+
+.details p {
+  margin-top: 1rem;
+}
+
+footer {
+  margin: 5rem auto 0 auto;
+  background-color: azure;
+  padding: 4rem;
+  width: 960px;
+  box-sizing: border-box;
+}
+
+footer img,
+footer p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer img {
+  margin-right: 1rem;
+  height: 1.5rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 1048px) {
+  .banner {
+    height: 22rem;
+  }
+  header {
+    width: 100%;
+    padding: 0;
+  }
+  .slogan {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .slogan h2 {
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+  .details {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+  #menu-button {
+    display: inline-block;
+  }
+  header h1,
+  nav ul,
+  footer p {
+    display: none;
+  }
+  .banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+  .slogan {
+    width: 100%;
+    margin-top: 9rem;
+    padding: 1rem 0;
+  }
+  .slogan h2 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .icon-gallery {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+    font-size: 0.77rem;
+    height: auto;
+  }
+  .paper,
+  .ruler {
+    margin-bottom: 1.54rem;
+  }
+  .icon img {
+    margin-bottom: 1rem;
+  }
+  .details {
+    display: block;
+  }
+  .philosophy,
+  .appointments {
+    width: 100%;
+  }
+  .philosophy {
+    margin-bottom: 4rem;
+  }
+  .details h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .details p {
+    font-size: 0.77rem;
+    padding: 0 0.25rem;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 4rem 0;
+  }
+  footer {
+    width: 100%;
+  }
+  footer img {
+    margin: 0;
+  }
+}
