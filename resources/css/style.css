@@ -232,6 +232,7 @@ footer img {
   }
   .details {
     display: block;
+    width: auto;
   }
   .philosophy,
   .appointments {
@@ -241,7 +242,7 @@ footer img {
     margin-bottom: 4rem;
   }
   .details h2 {
-    width: 100%;
+    width: auto;
     text-align: center;
   }
   .details p {
