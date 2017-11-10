@@ -13,16 +13,22 @@ header {
   width: 960px;
   background-color: cadetblue;
   background-clip: content-box;
+  padding-top: 18px;
   padding-top: 1rem;
   margin: 0 auto;
   color: white;
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header img {
+  height: 27px;
   height: 1.5rem;
   width: auto;
+  margin-right: 18px;
   margin-right: 1rem;
   vertical-align: middle;
 }
@@ -43,6 +49,7 @@ nav ul li {
 
 .logo-name,
 nav {
+  padding: 18px 36px;
   padding: 1rem 2rem;
 }
 
@@ -51,8 +58,12 @@ nav {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav ul li {
@@ -236,13 +247,15 @@ footer img {
   }
   .philosophy,
   .appointments {
-    width: 100%;
+    width: auto;
   }
   .philosophy {
     margin-bottom: 4rem;
+    margin-right: 0;
   }
   .details h2 {
     width: auto;
+    padding: 0.5rem 0;
     text-align: center;
   }
   .details p {
