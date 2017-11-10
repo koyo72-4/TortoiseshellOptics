@@ -243,11 +243,13 @@ footer img {
   }
   .details {
     display: block;
-    width: auto;
+    width: 100%;
+    box-sizing: border-box;
   }
   .philosophy,
   .appointments {
-    width: auto;
+    width: 100%;
+    box-sizing: border-box;
   }
   .philosophy {
     margin-bottom: 4rem;
